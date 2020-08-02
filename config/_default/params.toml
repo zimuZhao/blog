@@ -1,0 +1,35 @@
+logo = false
+logoText = "ZM Blog"
+logoType = "short" # long, short
+description = "持续学习"
+editBaseURL = ""
+github = "https://github.com/zimuZhao/blog.git"
+themeOptions = ["light", "dark"]
+
+useFaviconGenerator = true # https://www.favicon-generator.org/
+
+enableTocSwitch = false
+enableLandingBackground = true
+enableSearch = true
+enableSearchHighlight = true
+enableLangChange = false
+enableDarkMode = true
+enableBreadcrumb = true
+enableBlogBreadcrumb = true
+enableEditBtn = false
+enableToc = true
+enableMenu = true
+enableNavbar = true
+enableFooter = false
+showPoweredBy = false
+
+tocLevels = ["h2", "h3", "h4"]
+paginateWindow = 1
+taxoPaginate = 13
+taxoGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
+
+
+enableComment = false
+[utterances]       # https://utteranc.es/
+  owner = "zzossig"              # Your GitHub ID
+  repo = "zzoDocs"               # The repo to store comments

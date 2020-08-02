@@ -1,0 +1,29 @@
+[[main]]
+  identifier = "docs"
+  name = "Docs"
+  url = "docs"
+  weight = 1
+
+[[main]]
+  identifier = "fe-monthly"
+  name = "前端月刊"
+  url = "fe-monthly"
+  weight = 3
+
+[[main]]
+  identifier = "tools"
+  name = "工具"
+  url = "tools"
+  weight = 4
+
+[[main]]
+  identifier = "books"
+  name = "读书"
+  url = "books"
+  weight = 5
+
+[[main]]
+  identifier = "travel"
+  name = "旅行"
+  url = "travel"
+  weight = 6
