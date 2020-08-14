@@ -24,6 +24,8 @@ enableToc: true
 
 ## 工具
 
+[在线PS](https://www.uupoop.com/)：智能抠图，证件照换底色
+
 [草料二维码](https://cli.im/)：生成二维码
 
 [举牌小人](https://upuptoyou.com/)
