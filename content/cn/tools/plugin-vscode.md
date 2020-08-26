@@ -10,6 +10,7 @@ enableToc: true
 
 编辑器从`Eclipse`->`MyEclipse`->`IDEA`->`webstorm`，觉得自己找到了真爱，打死不换，每每同事安利的时候，都坚定地站队`webstorm`。直到升级版本后...折腾一上午都没找到稳定可用的破解器（可能也是我太菜了）。遂决定大步奔向`VS Code`的怀抱，简单配置、装了些插件之后，真香～～
 
+{{< img src="/images/tools/vscode-keyboard-shortcuts.jpg" title="快捷键" caption="MAC版" alt="快捷键">}}
 
 ## 基础配置篇
 
@@ -51,6 +52,10 @@ enableToc: true
 
 {{< img src="/images/tools/vscode-vetur.jpg" title="Vetur" caption="vue开发者必备" alt="Vetur">}}
 
+### Prettier
+
+{{< img src="/images/tools/vscode-prettier.jpg" title="Vetur" caption="代码格式化" alt="Prettier">}}
+
 ### Less intelliSense
 
 {{< img src="/images/tools/vscode-less-intellisense.jpg" title="Less intelliSense" caption="less变量与混合提示" alt="Less intelliSense">}}
@@ -72,6 +77,25 @@ enableToc: true
 适合前端开发。这个插件能实现页面实时预览，保存即更新。
 
 {{< img src="/images/tools/vscode-live-server.jpg" title="Live Server" caption="实时预览" alt="Live Server">}}
+
+### CSS Peek
+
+前端开发。鼠标悬停在元素的类名或元素ID上，就可以看到应用于这个元素的 CSS 规则。
+
+{{< img src="/images/tools/vscode-css-peek.gif" title="CSS Peek" caption="鼠标悬停查看css样式" alt="CSS Peek">}}
+
+### Beautify
+
+代码格式化。支持自定义规则。
+
+{{< img src="/images/tools/vscode-beautify.jpg" title="Live Server" caption="实时预览" alt="Live Server">}}
+
+### Auto Rename Tag
+
+自动重命名成对的标签。
+
+{{< img src="/images/tools/vscode-css-peek.gif" title="Live Server" caption="实时预览" alt="Live Server">}}
+
 
 
 ## Git

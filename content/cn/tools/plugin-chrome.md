@@ -28,6 +28,11 @@ enableToc: true
 {{< img src="/images/tools/gouwudang.jpg" title="购物党" caption="商品比价" alt="购物党">}}
 
 
+### One Click Translate
+
+右键调用Google翻译
+
+{{< img src="/images/tools/one-click-translate.jpg" title="one-click-translate" caption="右键调用google翻译" alt="one-click-translate.jpg">}}
 
 
 
@@ -68,6 +73,13 @@ EditThisCookie是一个cookie管理器。可以添加，删除，编辑，搜索
 另一款管理插件的插件。支持分组管理、配置排序规则，还可以快速的切换插件的开启与关闭。
 
 {{< img src="/images/tools/extension-manager.jpg" title="Extension Manager" caption="插件管理" alt="Extension Manager">}}
+
+### Panic Button
+
+一键切换正在浏览的页面，可以设置安全网页，安全网页会在隐藏标签页之后打开。适合不想让别人看到浏览内容时使用。支持设置快捷键与设置恢复浏览页的密码。
+
+{{< img src="/images/tools/panic-button.jpg" title="Panic Button" caption="一键切换正在浏览的内容" alt="Panic Button">}}
+
 
 
 ## 🤔 学习
