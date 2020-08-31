@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>有趣、好用的工具们 on ZM Blog</title>
+    <link>https://zimuzhao.github.io/blog/tools/</link>
+    <description>Recent content in 有趣、好用的工具们 on ZM Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn</language>
+    <lastBuildDate>Fri, 14 Aug 2020 13:59:24 +0800</lastBuildDate>
+    
+        <atom:link href="https://zimuzhao.github.io/blog/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>在线网站</title>
+        <link>https://zimuzhao.github.io/blog/tools/website/</link>
+        <pubDate>Sun, 28 Jun 2020 10:20:24 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/tools/website/</guid>
+        <description>下载地址
+在线网站推荐榜 资讯 今日热榜：整合多个内容渠道的热点信息，运营人必备～
+全历史：将每个国家的历史用时间轴串了起来，可以清晰地看到朝代大事件和代表人物
+四大名著：地图路线
+wikiHow：学习做任何事，高质量的指导手册
+问答库：免费考试题库，包括公务员考试，建筑工程，注册会计师，考研，会计等
+耳聆网：声音分享平台，拥有庞大的声音资源云库和完善的授权使用机制。其中的声音地图收录了包括自然和城市声音景观、种环境氛围等实地录音，让声音带有地理信息，很有意思。
+工具 在线PS：智能抠图，证件照换底色
+草料二维码：生成二维码
+举牌小人
+镜像炫光生成器
+文章生成器：输入主题，一键生成
+船长解析-vip视频在线解析：支持腾讯视频、爱奇艺、优酷、芒果TV、B站
+游戏 恐龙快跑：浏览器地址栏输入chrome://dino/，按空格键开始游戏哦
+初音音乐生成器：只需要点击鼠标，或者敲打键盘，初音的声音便会生成，根据你敲打的频次等，声音发生变化，莫名有点停不下来～
+编程技术 LeetCode：刷题必备
+100dayscss：CSS在线练习
+BestOfJs：每周热点排名，支持邮件订阅
+Blog
+廖雪峰
+小蘿蔔丁
+AlloyTeam
+陈大鱼头-codepen
+xiaoluoboding：友情链接，前端技术月刊
+其他 大像素全景
+假装电脑升级
+数据可视化工具目录：图表适用范围
+英文名取名
+nameberry
+百词斩出品
+behindthename（查询名字来源、变体、历史、受欢迎程度等）</description>
+      </item>
+      
+      <item>
+        <title>Chrome 插件</title>
+        <link>https://zimuzhao.github.io/blog/tools/plugin-chrome/</link>
+        <pubDate>Sun, 28 Jun 2020 10:20:24 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/tools/plugin-chrome/</guid>
+        <description>🌞 日常生活 插件下载（需知道url / extension ID）
+Momentum  Momentum: 替换 chrome 原有首页的插件    左上角：搜索 右上角：展示天气 中间：展示时间，外加TODO项 左下角：设置 右下角：TODO设置   购物党自动比价工具 全网自动比价，提供价格历史、口碑评分等查询功能，支持商品促销活动，商城优惠信息查询
+ 购物党: 商品比价   One Click Translate 右键调用Google翻译
+ one-click-translate: 右键调用google翻译   🔧 小工具 FireShot 网页截屏工具，支持滚动截屏
+ FireShot: 滚动截屏   Copyfish 🐟 Free OCR Software 从图像，视频或PDF中提取文本
+ Copyfish: 文本提取   EditThisCookie EditThisCookie是一个cookie管理器。可以添加，删除，编辑，搜索，锁定和屏蔽cookies！
+ EditThisCookie: cookie管理   SwitchyOmega 一款浏览器代理工具, 可以让浏览器的请求代理都指向代理服务, 比如将所有请求指向 whistle, 将 *.</description>
+      </item>
+      
+      <item>
+        <title>VS Code插件</title>
+        <link>https://zimuzhao.github.io/blog/tools/plugin-vscode/</link>
+        <pubDate>Fri, 14 Aug 2020 13:59:24 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/tools/plugin-vscode/</guid>
+        <description>VS Code官网
+编辑器从Eclipse-&amp;gt;MyEclipse-&amp;gt;IDEA-&amp;gt;webstorm，觉得自己找到了真爱，打死不换，每每同事安利的时候，都坚定地站队webstorm。直到升级版本后&amp;hellip;webstorm打击盗版真的是太狠了。遂决定大步奔向VS Code的怀抱，简单配置、装了些插件之后，真香～～
+ 快捷键: MAC版   基础配置篇 Chinese(Simplified) Language Pack for Visual Studio Code  Language Pack: 汉化语言包   Darcula Theme 主题插件，在其他编辑器上用习惯了Darcula的配色方案，装上之后一下子亲切不少～
+主题这个是因人而异的啦，大家可以直接在插件那搜索theme,诸多款式任君挑选
+ Darcula Theme: 主题配色   Eclipse Keymap 快捷键。习惯了Eclipse的快捷键，所有编辑器用的都是这套。
+插件装到这里已经感觉很畅快了，而且启动速度比webstorm快，赞一个～
+ Eclipse Keymap: 快捷键   indent-rainbow 缩进颜色区分，未正常缩进时会变红。舒舒服服看代码～
+ indent-rainbow: 缩进标志   Markdown Preview Enhanced  Markdown Preview Enhanced: markdown预览   开发利器 ESLint  ESLint: 代码检查   Vetur 详细介绍移步：https://github.com/vuejs/vetur
+ Vetur: vue开发者必备   Prettier  Vetur: 代码格式化   Less intelliSense  Less intelliSense: less变量与混合提示   npm Intellisense 使用require()导入模块代码时，npm Intellisense组件会自发进行包提示。</description>
+      </item>
+      
+      <item>
+        <title>软件篇-Windows</title>
+        <link>https://zimuzhao.github.io/blog/tools/software-windows/</link>
+        <pubDate>Sat, 04 Jul 2020 23:14:24 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/tools/software-windows/</guid>
+        <description>ScreenToGif gif图帧率调整。
+微信公众号后台限制，上传的gif图片不能超过300帧。怎么破呢？
+ScreenToGif支持每隔N帧抽取1帧，这样可以让gif图减少帧数的同时，保证流畅性。
+ ScreenToGif: M帧gif图系数 = 300/(M-300) &amp;lt;结果取整&amp;gt;   下载地址 (提取码: 5eft)</description>
+      </item>
+      
+    
+  </channel>
+</rss>

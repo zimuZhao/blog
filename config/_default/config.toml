@@ -1,6 +1,7 @@
-baseURL = "https://zzodocs.netlify.com"
-title = "Hugo Zzo Theme Documentation"
+baseURL = "https://zimuzhao.github.io/blog/"
+title = "ZM Blog"
 theme = "zzodoc"
+publishDir = "docs"
 
 defaultContentLanguage = "cn"
 defaultContentLanguageInSubdir = false

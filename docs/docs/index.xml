@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on ZM Blog</title>
+    <link>https://zimuzhao.github.io/blog/docs/</link>
+    <description>Recent content in Docs on ZM Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn</language>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="https://zimuzhao.github.io/blog/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Getting Started</title>
+        <link>https://zimuzhao.github.io/blog/docs/gettingstarted/</link>
+        <pubDate>Thu, 30 Jan 2020 10:08:56 +0900</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/docs/gettingstarted/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Configuration</title>
+        <link>https://zimuzhao.github.io/blog/docs/configuration/</link>
+        <pubDate>Thu, 30 Jan 2020 10:10:56 +0900</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/docs/configuration/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Pages</title>
+        <link>https://zimuzhao.github.io/blog/docs/pages/</link>
+        <pubDate>Thu, 30 Jan 2020 10:10:56 +0900</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/docs/pages/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Shortcodes</title>
+        <link>https://zimuzhao.github.io/blog/docs/shortcodes/</link>
+        <pubDate>Thu, 30 Jan 2020 10:10:56 +0900</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/docs/shortcodes/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Customization</title>
+        <link>https://zimuzhao.github.io/blog/docs/customization/</link>
+        <pubDate>Thu, 30 Jan 2020 10:10:56 +0900</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/docs/customization/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>External Libraries</title>
+        <link>https://zimuzhao.github.io/blog/docs/externallibrary/</link>
+        <pubDate>Thu, 30 Jan 2020 10:08:56 +0900</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/docs/externallibrary/</guid>
+        <description></description>
+      </item>
+      
+    
+  </channel>
+</rss>
