@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on ZM Blog</title>
+    <link>https://zzodocs.netlify.com/docs/pages/</link>
+    <description>Recent content in Pages on ZM Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn</language>
+    <lastBuildDate>Thu, 30 Jan 2020 10:10:56 +0900</lastBuildDate>
+    
+        <atom:link href="https://zzodocs.netlify.com/docs/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>About Page</title>
+        <link>https://zzodocs.netlify.com/docs/pages/about/</link>
+        <pubDate>Thu, 30 Jan 2020 12:51:06 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/pages/about/</guid>
+        <description>About page is just an empty page. You fill the empty page to your own story with markdown.
+Make a file at root/content/about/index.md
+1 2 3 4 5 6 7  ---title:Aboutdate:2020-01-30T12:50:46+09:00description:Zzoaboutpagetype:about---  </description>
+      </item>
+      
+      <item>
+        <title>Archive Page</title>
+        <link>https://zzodocs.netlify.com/docs/pages/archive/</link>
+        <pubDate>Thu, 30 Jan 2020 12:50:46 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/pages/archive/</guid>
+        <description>Archive page is a page that list all of your post.
+1 2 3 4 5 6 7 8  ---title:Archivedate:2020-01-30T12:50:46+09:00type:archivedescription:ZzoarchivepagetitleWrap:wrap# wrap, noWrap---  You can exclude some sections that you don&amp;rsquo;t want to display in the archive page.
+In your params.toml file,
+1 2 3  ... notAllowedTypesInArchive = [&amp;#34;about&amp;#34;, &amp;#34;talks&amp;#34;, &amp;#34;showcase&amp;#34;, &amp;#34;gallery&amp;#34;] ...   </description>
+      </item>
+      
+      <item>
+        <title>Gallery Page</title>
+        <link>https://zzodocs.netlify.com/docs/pages/gallery/</link>
+        <pubDate>Thu, 30 Jan 2020 12:45:41 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/pages/gallery/</guid>
+        <description>There are two modes to the gallery. You can specify it in the front matter.
+content/gallery/anygalleryname/index.md
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21  ---title:&amp;#34;{{ replace .Name &amp;#34;-&amp;#34; &amp;#34;&amp;#34; | title }}&amp;#34;date:{{.Date}}description:mygallerytype:gallerymode:one-by-one# at-once or one-by-onetags:-series:-categories:-images:# when mode is one-by-one, images front-matter variable works- image:image1.jpgcaption:caption1- image:image2.jpgcaption:caption2...---  one-by-one If you set the mode to one-by-one, you have to set the images front matter.</description>
+      </item>
+      
+      <item>
+        <title>Contact Page</title>
+        <link>https://zzodocs.netlify.com/docs/pages/contact/</link>
+        <pubDate>Thu, 30 Jan 2020 12:49:57 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/pages/contact/</guid>
+        <description>formspree Currently available service: formspree. Open an issue if you need another service vendor.
+ Make a file at root/content/contact/index.md  1 2 3 4 5 6 7 8 9 10  ---title:&amp;#34;Contact&amp;#34;date:2019-12-17T23:58:33+09:00description:Contactpagetype:contactservice:formspreeformId:&amp;#34;your@email.com&amp;#34;---Thisiscontactpage.  Add contact menu at root/config/_default/menus.cn.toml.  1 2 3 4 5 6  ... [[main]] identifier = &amp;#34;contact&amp;#34; name = &amp;#34;contact&amp;#34; url = &amp;#34;contact&amp;#34; weight = 6   default If you want just a blank page and use a markdown, set the service param empty.</description>
+      </item>
+      
+      <item>
+        <title>Talks Page</title>
+        <link>https://zzodocs.netlify.com/docs/pages/talks/</link>
+        <pubDate>Thu, 30 Jan 2020 12:49:51 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/pages/talks/</guid>
+        <description>Talks page is a listing page of links(video, ppt, event, &amp;hellip;). UI is similar to the archive page. Follow the below steps to make it.
+  Make a file at root/content/talks/_index.md.
+1 2 3 4 5 6  ---title:&amp;#34;Talks&amp;#34;date:2019-12-30T11:14:14+09:00description:TalksPagetitleWrap:wrap# wrap, nowrap---    Next, make some files under the talks folder you have created in step 1. If you want to make other link post, then make another file under the talks folder.</description>
+      </item>
+      
+      <item>
+        <title>Showcase Page</title>
+        <link>https://zzodocs.netlify.com/docs/pages/showcase/</link>
+        <pubDate>Thu, 30 Jan 2020 12:50:23 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/pages/showcase/</guid>
+        <description>Showcase page is a listing page of project showcase. Follow the below steps to make it.
+  Make a file at root/content/showcase/_index.md.
+1 2 3 4 5 6  ---title:&amp;#34;Showcase overview&amp;#34;# For SEOdate:2020-01-19T15:43:38+09:00description:Myportfolio,repos,worksoverviewpage# For SEOenableBio:true# Set to false if you want to hide the bio component.---    Make a category folder and a file at root/content/showcase/hugo/_index.md. (In my case, hugo is a category)
+1 2 3 4 5 6 7 8  ---title:&amp;#34;Hugo&amp;#34;# category namedate:2020-01-19T21:04:11+09:00description:Hugothemecollection# For SEOcategory:theme# meta info appeared on a card bottom side.</description>
+      </item>
+      
+      <item>
+        <title>Presentation Page</title>
+        <link>https://zzodocs.netlify.com/docs/pages/presentation/</link>
+        <pubDate>Thu, 30 Jan 2020 12:51:34 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/pages/presentation/</guid>
+        <description>The presentation page uses reveal.js. I don&amp;rsquo;t think anyone uses this page, including me. If you do think that this page is useful and want to get improved, or have some suggestions, open a new issue in the zzo theme repository.
+How to make presentation page   Make a file at root/content/presentation/_index.md.
+1 2 3 4  ---title:&amp;#34;Presentations&amp;#34;description:&amp;#34;Presentation list with reveal.js&amp;#34;---    And then, make a presentation markdown file.</description>
+      </item>
+      
+      <item>
+        <title>Publication Page</title>
+        <link>https://zzodocs.netlify.com/docs/pages/publication/</link>
+        <pubDate>Sat, 08 Feb 2020 19:07:57 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/pages/publication/</guid>
+        <description>Basially, the publication page is created to represent a .bib file. But you can use the publication page as needed.
+using zzo-bibtex-parer I made a library to parse the .bibfile to mdfile. Follow the steps below to install the library.
+  Install pip(The Python Package Installer) first.
+  Install zzo-bibtex-paresr by typing this in your terminal.
+pip install zzo-bibtex-parser==1.0.8   Prepare your .bib file to the root folder.</description>
+      </item>
+      
+      <item>
+        <title>Resume Page</title>
+        <link>https://zzodocs.netlify.com/docs/pages/resume/</link>
+        <pubDate>Mon, 10 Feb 2020 10:01:01 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/pages/resume/</guid>
+        <description>Follow the below steps to make a resume page.
+  Make a folder and file at root/content/resume/index.md
+  index.md  ```yaml --- title: &amp;quot;Resume&amp;quot; date: 2020-02-09T20:13:59+09:00 description: My awesome resume type: resume enableToc: false header: image: src: images/whoami/avatar.png height: 100 alt: resume image infos: name: choi email: cshl0ve@naver.com phone: 000-0000-0000 website: https://www.exampleSite.com addr: my address items: - title: myTitle sections: - title: sectionTitle1 subtitle: sectionSubtitle1 startDate: 2020-02-09T20:13:59+09:00 endDateText: current endDate: 2020-02-10T20:13:59+09:00 contents: | # h1 ## h2 ### h3 1.</description>
+      </item>
+      
+    
+  </channel>
+</rss>

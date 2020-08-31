@@ -8,7 +8,7 @@ enableToc: true
 
 [VS Code官网](https://code.visualstudio.com/)
 
-编辑器从`Eclipse`->`MyEclipse`->`IDEA`->`webstorm`，觉得自己找到了真爱，打死不换，每每同事安利的时候，都坚定地站队`webstorm`。直到升级版本后...折腾一上午都没找到稳定可用的破解器（可能也是我太菜了）。遂决定大步奔向`VS Code`的怀抱，简单配置、装了些插件之后，真香～～
+编辑器从`Eclipse`->`MyEclipse`->`IDEA`->`webstorm`，觉得自己找到了真爱，打死不换，每每同事安利的时候，都坚定地站队`webstorm`。直到升级版本后...webstorm打击盗版真的是太狠了。遂决定大步奔向`VS Code`的怀抱，简单配置、装了些插件之后，真香～～
 
 {{< img src="/images/tools/vscode-keyboard-shortcuts.jpg" title="快捷键" caption="MAC版" alt="快捷键">}}
 
@@ -38,6 +38,10 @@ enableToc: true
 缩进颜色区分，未正常缩进时会变红。舒舒服服看代码～
 
 {{< img src="/images/tools/vscode-indent-rainbow.jpg" title="indent-rainbow" caption="缩进标志" alt="indent-rainbow">}}
+
+### Markdown Preview Enhanced
+
+{{< img src="/images/tools/vscode-markdown-preview.jpg" title="Markdown Preview Enhanced" caption="markdown预览" alt="Markdown Preview Enhanced">}}
 
 
 ## 开发利器

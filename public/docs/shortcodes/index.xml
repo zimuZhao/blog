@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shortcodes on ZM Blog</title>
+    <link>https://zzodocs.netlify.com/docs/shortcodes/</link>
+    <description>Recent content in Shortcodes on ZM Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn</language>
+    <lastBuildDate>Thu, 30 Jan 2020 10:10:56 +0900</lastBuildDate>
+    
+        <atom:link href="https://zzodocs.netlify.com/docs/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Alert</title>
+        <link>https://zzodocs.netlify.com/docs/shortcodes/alert/</link>
+        <pubDate>Thu, 30 Jan 2020 16:40:04 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/shortcodes/alert/</guid>
+        <description>Alert is a colored text box.
+{{&amp;lt; alert theme=&amp;quot;warning&amp;quot; dir=&amp;quot;ltr&amp;quot; &amp;gt;}} # warning, success, info, danger **this** is a text {{&amp;lt; /alert &amp;gt;}} image  Alert: Zzo alert shortcode   </description>
+      </item>
+      
+      <item>
+        <title>Box</title>
+        <link>https://zzodocs.netlify.com/docs/shortcodes/box/</link>
+        <pubDate>Thu, 30 Jan 2020 16:40:25 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/shortcodes/box/</guid>
+        <description>  Markdownify box
+{{&amp;lt; boxmd &amp;gt;}} Some markdown contents {{&amp;lt; /boxmd &amp;gt;}}   Simple box
+{{&amp;lt; box &amp;gt;}} Some contents {{&amp;lt; /box &amp;gt;}}   image  Box: Zzo box shortcode   </description>
+      </item>
+      
+      <item>
+        <title>Code</title>
+        <link>https://zzodocs.netlify.com/docs/shortcodes/codeblock/</link>
+        <pubDate>Thu, 30 Jan 2020 16:40:37 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/shortcodes/codeblock/</guid>
+        <description>code / codes =&amp;gt; Tabbed code-block. indentation matters.
+{{&amp;lt; codes java javascript &amp;gt;}} {{&amp;lt; code &amp;gt;}} ```java System.out.println(&#39;Hello World!&#39;); ``` {{&amp;lt; /code &amp;gt;}} {{&amp;lt; code &amp;gt;}} ```javascript console.log(&#39;Hello World!&#39;); ``` {{&amp;lt; /code &amp;gt;}} {{&amp;lt; /codes &amp;gt;}} image  Code Tab: Zzo code-block shortcode   </description>
+      </item>
+      
+      <item>
+        <title>Expand</title>
+        <link>https://zzodocs.netlify.com/docs/shortcodes/expand/</link>
+        <pubDate>Thu, 30 Jan 2020 16:40:10 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/shortcodes/expand/</guid>
+        <description>Collapse contents with expand shortcode.
+{{&amp;lt; expand &amp;quot;Expand me&amp;quot; &amp;gt;}}Some Markdown Contents{{&amp;lt; /expand &amp;gt;}} image  Code Tab: Zzo Expand shortcode   </description>
+      </item>
+      
+      <item>
+        <title>Img</title>
+        <link>https://zzodocs.netlify.com/docs/shortcodes/img/</link>
+        <pubDate>Thu, 30 Jan 2020 16:40:16 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/shortcodes/img/</guid>
+        <description>image with title, caption, alt, width, height
+{{&amp;lt; img src=&amp;quot;/images/shortcodes/notice.png&amp;quot; title=&amp;quot;Notice&amp;quot; caption=&amp;quot;Zzo Notice shortcode&amp;quot; alt=&amp;quot;image alt&amp;quot; width=&amp;quot;500px&amp;quot; height=&amp;quot;500px&amp;quot; position=&amp;quot;center&amp;quot; &amp;gt;}}  Title: caption   </description>
+      </item>
+      
+      <item>
+        <title>Notice</title>
+        <link>https://zzodocs.netlify.com/docs/shortcodes/notice/</link>
+        <pubDate>Thu, 30 Jan 2020 16:40:20 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/shortcodes/notice/</guid>
+        <description>1 2 3  {{&amp;lt; notice success &amp;gt;}} # success, info, warning, error success {{&amp;lt; /notice &amp;gt;}}    Notice: Zzo Notice shortcode   </description>
+      </item>
+      
+      <item>
+        <title>Tab</title>
+        <link>https://zzodocs.netlify.com/docs/shortcodes/tab/</link>
+        <pubDate>Thu, 30 Jan 2020 16:40:40 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/shortcodes/tab/</guid>
+        <description>tab / tabs =&amp;gt; Tabs make it easy to explore and switch between different views
+{{&amp;lt; tabs Windows MacOS Ubuntu &amp;gt;}} {{&amp;lt;/* tab &amp;gt;}} ### Windows section ```javascript console.log(&#39;Hello World!&#39;); ``` {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; tab &amp;gt;}} ### MacOS section Hello world! {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; tab &amp;gt;}} ### Ubuntu section Great! {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; /tabs &amp;gt;}} ⚠️Becareful that the content in the tab should be different from each other.</description>
+      </item>
+      
+      <item>
+        <title>featuredImage</title>
+        <link>https://zzodocs.netlify.com/docs/shortcodes/featuredimage/</link>
+        <pubDate>Mon, 24 Feb 2020 15:40:40 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/shortcodes/featuredimage/</guid>
+        <description>featuredImage shortcode displays the featured image specified in the image front-matter.
+You can use {{&amp;lt; featuredImage &amp;gt;}} shortcode anywhere in your post.
+You can also set optional params like this. {{&amp;lt; featuredImage alt=&amp;quot;featured image&amp;quot; width=50 height=50 &amp;gt;}}
+1 2 3 4 5 6 7  ---title:...image:images/my-featured-image.png---{{&amp;lt;featuredImage&amp;gt;}}  </description>
+      </item>
+      
+      <item>
+        <title>Button</title>
+        <link>https://zzodocs.netlify.com/docs/shortcodes/button/</link>
+        <pubDate>Sun, 02 Feb 2020 03:00:00 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/shortcodes/button/</guid>
+        <description>Simple button
+{{&amp;lt; button href=&amp;quot;https://...&amp;quot; &amp;gt;}}button{{&amp;lt; /button &amp;gt;}}   You can specify width, height
+{{&amp;lt; button href=&amp;quot;https://...&amp;quot; width=&amp;quot;100px&amp;quot; height=&amp;quot;36px&amp;quot; &amp;gt;}}button{{&amp;lt; /button &amp;gt;}}   Set color
+{{&amp;lt; button href=&amp;quot;https://...&amp;quot; width=&amp;quot;100px&amp;quot; height=&amp;quot;36px&amp;quot; color=&amp;quot;primary&amp;quot; &amp;gt;}}button{{&amp;lt; /button &amp;gt;}} You can customize the button primary color in the file at root/data/button.toml. Just copy-paste the theme&amp;rsquo;s button.toml file and edit the params as you want.
+1 2 3 4 5 6  # restart hugo after set the values dark_primary_color = &amp;#34;#82aaff&amp;#34; light_primary_color = &amp;#34;#728fcb&amp;#34; hacker_primary_color = &amp;#34;#cddc39&amp;#34; solarized_primary_color = &amp;#34;#689f38&amp;#34; kimbie_primary_color = &amp;#34;#8ab1b0&amp;#34;   button.</description>
+      </item>
+      
+    
+  </channel>
+</rss>

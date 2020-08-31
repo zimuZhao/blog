@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on ZM Blog</title>
+    <link>https://zzodocs.netlify.com/docs/</link>
+    <description>Recent content in Docs on ZM Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn</language>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="https://zzodocs.netlify.com/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Getting Started</title>
+        <link>https://zzodocs.netlify.com/docs/gettingstarted/</link>
+        <pubDate>Thu, 30 Jan 2020 10:08:56 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/gettingstarted/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Configuration</title>
+        <link>https://zzodocs.netlify.com/docs/configuration/</link>
+        <pubDate>Thu, 30 Jan 2020 10:10:56 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/configuration/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Pages</title>
+        <link>https://zzodocs.netlify.com/docs/pages/</link>
+        <pubDate>Thu, 30 Jan 2020 10:10:56 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/pages/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Shortcodes</title>
+        <link>https://zzodocs.netlify.com/docs/shortcodes/</link>
+        <pubDate>Thu, 30 Jan 2020 10:10:56 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/shortcodes/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Customization</title>
+        <link>https://zzodocs.netlify.com/docs/customization/</link>
+        <pubDate>Thu, 30 Jan 2020 10:10:56 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/customization/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>External Libraries</title>
+        <link>https://zzodocs.netlify.com/docs/externallibrary/</link>
+        <pubDate>Thu, 30 Jan 2020 10:08:56 +0900</pubDate>
+        
+        <guid>https://zzodocs.netlify.com/docs/externallibrary/</guid>
+        <description></description>
+      </item>
+      
+    
+  </channel>
+</rss>
