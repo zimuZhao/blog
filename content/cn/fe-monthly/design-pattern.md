@@ -6,7 +6,10 @@ weight: 2
 enableToc: true
 ---
 
+# 教程
 [ES6设计模式专栏](https://www.jianshu.com/nb/23500380)
+
+[JavaScript设计原则&&常用设计模式](https://segmentfault.com/a/1190000019663847)
 
 # 单例模式
 

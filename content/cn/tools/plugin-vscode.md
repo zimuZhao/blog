@@ -10,6 +10,8 @@ enableToc: true
 
 编辑器从`Eclipse`->`MyEclipse`->`IDEA`->`webstorm`，觉得自己找到了真爱，打死不换，每每同事安利的时候，都坚定地站队`webstorm`。直到升级版本后...webstorm打击盗版真的是太狠了。遂决定大步奔向`VS Code`的怀抱，简单配置、装了些插件之后，真香～～
 
+*2020-09-01：重新转回`webstorm`了，主要原因是最近多人协作的一个大项目，频繁git各种操作和查看依赖上下文，暂时没找到替代方案，为了效率换回来了。但是文本编辑和小型静态项目还是推荐vs的～*
+
 {{< img src="/images/tools/vscode-keyboard-shortcuts.jpg" title="快捷键" caption="MAC版" alt="快捷键">}}
 
 ## 基础配置篇
@@ -20,7 +22,7 @@ enableToc: true
 
 ### Darcula Theme
 
-主题插件，在其他编辑器上用习惯了`Darcula`的配色方案，装上之后一下子亲切不少～ 
+主题插件，在其他编辑器上用习惯了`Darcula`的配色方案，装上之后一下子亲切不少～
 
 主题这个是因人而异的啦，大家可以直接在插件那搜索`theme`,诸多款式任君挑选
 
