@@ -14,31 +14,6 @@
     
       
       <item>
-        <title>2020-08</title>
-        <link>https://zimuzhao.github.io/blog/fe-monthly/2020/2020-08/</link>
-        <pubDate>Tue, 04 Aug 2020 10:08:56 +0800</pubDate>
-        
-        <guid>https://zimuzhao.github.io/blog/fe-monthly/2020/2020-08/</guid>
-        <description>资讯 Do all JavaScript tools lead to Rome?
-Rome的目标是取代Babel, ESLint, Webpack, Prettier, Jest等等
-React 17.0 Release Candidate: No New Features but Still Lots That&amp;rsquo;s Interesting
-Quickly Find Front-End Issues Like JavaScript or Network Errors
-前端监控解决方案。支持获取客户端报错信息、优化前端资源加载时间、UI页面测试（屏幕录制）。免费试用14天，但是数据存储地址只能选择美国/欧洲，且数据不能迁移。
-TypeScript发布4.0 RC版本
-npm v7 Now in Beta
-D3 6.0发布
-Electron 10.0.0 Released
-优化策略 从2.9秒到0.6秒，信息流首屏提效80%的秘诀
-教程 Natively Format JavaScript Numbers：原生函数格式化数字，千分位、货币符号、单位等
-🔧 优秀的库/Demo JS相关 Tabris.js：Tabris.js 3.6发布，支持Redux，PDF等。Tabris是一个移动应用开发框架，支持一套代码实现IOS、Android、Windows应用。该框架易上手的，调试、打包、发布一条龙。但控件可定制性不强，对UI/定制业务组件要求比较高的需求，实现起来较麻烦。
-- 支持线上构建，安装开发者APP就能调试，无需其他环境配置
-- 不需要webview
-- 支持npm包，以Node.js的方式引入模块
-- 支持cordova插件（开发者app默认内置摄像头调用、扫码、陀螺仪、谷歌服务等cordova插件）
-- 支持fs，支持ES6、TypeScript和JSX，支持WebSocket等W3C API</description>
-      </item>
-      
-      <item>
         <title>DEMO</title>
         <link>https://zimuzhao.github.io/blog/fe-monthly/demo/</link>
         <pubDate>Sun, 02 Aug 2020 14:08:56 +0800</pubDate>
@@ -53,6 +28,7 @@ Electron 10.0.0 Released
 Button hover-边框
 hover-多重边框
 click-微粒
+按钮点击效果
 Input Todo List
 Text 发光
 霓虹
@@ -151,13 +127,39 @@ behindthename（查询名字来源、变体、历史、受欢迎程度等）</de
         <pubDate>Sun, 30 Aug 2020 16:46:56 +0800</pubDate>
         
         <guid>https://zimuzhao.github.io/blog/fe-monthly/design-pattern/</guid>
-        <description>ES6设计模式专栏
+        <description>教程 ES6设计模式专栏
+JavaScript设计原则&amp;amp;&amp;amp;常用设计模式
 单例模式 一个类仅有一个实例对象。
 适用场景：一个单一对象。比如：弹窗，无论点击多少次，弹窗只应该被创建一次。
 javascript class CreateUser { constructor(name) { this.name = name; this.getName(); } getName() { return this.name; } } // 代理实现单例模式 var ProxyMode = (function() { var instance = null; return function(name) { if(!instance) { instance = new CreateUser(name); } return instance; } })(); // 测试单体模式的实例 var a = new ProxyMode(&amp;quot;aaa&amp;quot;); var b = new ProxyMode(&amp;quot;bbb&amp;quot;); // 因为单体模式是只实例化一次，所以下面的实例是相等的 console.log(a === b); //true
 策略模式 将算法的使用算法的实现分离。定义一系列的算法，把他们一个个封装起来，并且使他们可以相互替换。
 一个基于策略模式的程序至少由两部分组成：
  一组策略类（可变），策略类封装了具体的算法，并负责具体的计算过程； 环境类Context（不变），Context接受客户的请求，随后将请求委托给某一个策略类。  javascript var levelOBJ = { &amp;quot;A&amp;quot;: function(money) { return money * 4; }, &amp;quot;B&amp;quot; : function(money) { return money * 3; }, &amp;quot;C&amp;quot; : function(money) { return money * 2; } }; /*环境类*/ var calculateBouns =function(level,money) { return levelOBJ[level](money); }; console.</description>
+      </item>
+      
+      <item>
+        <title>2020-08</title>
+        <link>https://zimuzhao.github.io/blog/fe-monthly/2020/2020-08/</link>
+        <pubDate>Tue, 04 Aug 2020 10:08:56 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/fe-monthly/2020/2020-08/</guid>
+        <description>资讯 Do all JavaScript tools lead to Rome?
+Rome的目标是取代Babel, ESLint, Webpack, Prettier, Jest等等
+React 17.0 Release Candidate: No New Features but Still Lots That&amp;rsquo;s Interesting
+Quickly Find Front-End Issues Like JavaScript or Network Errors
+前端监控解决方案。支持获取客户端报错信息、优化前端资源加载时间、UI页面测试（屏幕录制）。免费试用14天，但是数据存储地址只能选择美国/欧洲，且数据不能迁移。
+TypeScript发布4.0 RC版本
+npm v7 Now in Beta
+D3 6.0发布
+Electron 10.0.0 Released
+优化策略 从2.9秒到0.6秒，信息流首屏提效80%的秘诀
+教程 Natively Format JavaScript Numbers：原生函数格式化数字，千分位、货币符号、单位等
+🔧 优秀的库/Demo JS相关 Tabris.js：Tabris.js 3.6发布，支持Redux，PDF等。Tabris是一个移动应用开发框架，支持一套代码实现IOS、Android、Windows应用。该框架易上手的，调试、打包、发布一条龙。但控件可定制性不强，对UI/定制业务组件要求比较高的需求，实现起来较麻烦。
+- 支持线上构建，安装开发者APP就能调试，无需其他环境配置
+- 不需要webview
+- 支持npm包，以Node.js的方式引入模块
+- 支持cordova插件（开发者app默认内置摄像头调用、扫码、陀螺仪、谷歌服务等cordova插件）
+- 支持fs，支持ES6、TypeScript和JSX，支持WebSocket等W3C API</description>
       </item>
       
       <item>
@@ -193,6 +195,21 @@ Momentum  Momentum: 替换 chrome 原有首页的插件    左上角：搜索 �
       </item>
       
       <item>
+        <title>2020-09</title>
+        <link>https://zimuzhao.github.io/blog/fe-monthly/2020/2020-09/</link>
+        <pubDate>Thu, 03 Sep 2020 10:20:56 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/fe-monthly/2020/2020-09/</guid>
+        <description>资讯 深度解析 | Flutter web 支持的最新进展
+Vue 3.0 &amp;lsquo;One Piece&amp;rsquo; released
+Node.js September 2020 Security Releases
+Deno 1.4 Released
+MomentJS is done
+Feature Watch: ECMAScript 2021: Dr. Axel always keeps tabs on the new features coming to future versions of ECMAScript and he’s now started to do the same for the forthcoming ES2021.
+V8 Release 8.6: The latest version of the V8 JavaScript engine is now in beta until its eventual release with Chrome 86</description>
+      </item>
+      
+      <item>
         <title>VS Code插件</title>
         <link>https://zimuzhao.github.io/blog/tools/plugin-vscode/</link>
         <pubDate>Fri, 14 Aug 2020 13:59:24 +0800</pubDate>
@@ -200,13 +217,13 @@ Momentum  Momentum: 替换 chrome 原有首页的插件    左上角：搜索 �
         <guid>https://zimuzhao.github.io/blog/tools/plugin-vscode/</guid>
         <description>VS Code官网
 编辑器从Eclipse-&amp;gt;MyEclipse-&amp;gt;IDEA-&amp;gt;webstorm，觉得自己找到了真爱，打死不换，每每同事安利的时候，都坚定地站队webstorm。直到升级版本后&amp;hellip;webstorm打击盗版真的是太狠了。遂决定大步奔向VS Code的怀抱，简单配置、装了些插件之后，真香～～
+2020-09-01：重新转回webstorm了，主要原因是最近多人协作的一个大项目，频繁git各种操作和查看依赖上下文，暂时没找到替代方案，为了效率换回来了。但是文本编辑和小型静态项目还是推荐vs的～
  快捷键: MAC版   基础配置篇 Chinese(Simplified) Language Pack for Visual Studio Code  Language Pack: 汉化语言包   Darcula Theme 主题插件，在其他编辑器上用习惯了Darcula的配色方案，装上之后一下子亲切不少～
 主题这个是因人而异的啦，大家可以直接在插件那搜索theme,诸多款式任君挑选
  Darcula Theme: 主题配色   Eclipse Keymap 快捷键。习惯了Eclipse的快捷键，所有编辑器用的都是这套。
 插件装到这里已经感觉很畅快了，而且启动速度比webstorm快，赞一个～
  Eclipse Keymap: 快捷键   indent-rainbow 缩进颜色区分，未正常缩进时会变红。舒舒服服看代码～
- indent-rainbow: 缩进标志   Markdown Preview Enhanced  Markdown Preview Enhanced: markdown预览   开发利器 ESLint  ESLint: 代码检查   Vetur 详细介绍移步：https://github.com/vuejs/vetur
- Vetur: vue开发者必备   Prettier  Vetur: 代码格式化   Less intelliSense  Less intelliSense: less变量与混合提示   npm Intellisense 使用require()导入模块代码时，npm Intellisense组件会自发进行包提示。</description>
+ indent-rainbow: 缩进标志   Markdown Preview Enhanced  Markdown Preview Enhanced: markdown预览   开发利器 ESLint  ESLint: 代码检查   Vetur 详细介绍移步：https://github.com/vuejs/vetur</description>
       </item>
       
       <item>
@@ -219,6 +236,21 @@ Momentum  Momentum: 替换 chrome 原有首页的插件    左上角：搜索 �
 微信公众号后台限制，上传的gif图片不能超过300帧。怎么破呢？
 ScreenToGif支持每隔N帧抽取1帧，这样可以让gif图减少帧数的同时，保证流畅性。
  ScreenToGif: M帧gif图系数 = 300/(M-300) &amp;lt;结果取整&amp;gt;   下载地址 (提取码: 5eft)</description>
+      </item>
+      
+      <item>
+        <title>JetBrains系激活</title>
+        <link>https://zimuzhao.github.io/blog/tools/jetbrains-register/</link>
+        <pubDate>Tue, 01 Sep 2020 10:08:24 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/tools/jetbrains-register/</guid>
+        <description> 感谢 https://zhile.io/ 的站长大佬提供的工具
+ JetBrains官网
+可成功激活JetBrains以下版本（支持低于以下版本的激活）：
+ IntelliJ IDEA 2020.2 激活 AppCode 2020.2 激活 CLion 2020.2 激活 DataGrip 2020.2 激活 GoLand 2020.2.1 激活 PhpStorm 2020.2 激活 PyCharm 2020.2 激活 Rider 2020.1.4 激活 RubyMine 2020.2 激活 WebStorm 2020.2 激活  补丁下载 JetBrains破解补丁
+安装参数 LFq51qqupnaiTNn39w6zATiOTxZI2JYuRJEBlzmUDv4zeeNlXhMgJZVb0q5QkLr+CIUrSuNB7ucifrGXawLB4qswPOXYG7+ItDNUR/9UkLTUWlnHLX07hnR1USOrWIjTmbytcIKEdaI6x0RskyotuItj84xxoSBP/iRBW2EHpOc
+激活步骤 以WebStorm为例：
+ 运行IDE，进入可操作界面；   可操作界面: Drop files here to open   将jetbrains-agent.zip拖拽到操作区域空白处，点击 Restart 按钮重新启动； 重启后出现JetbrainsAgent 配置助手窗口，粘贴安装参数，点击为 WebStorm 安装，确认后重启； 禁用更新检查：重启后点击WebStorm -&amp;gt; Preferences打开软件的偏好设置，左上角的搜索框处输入update,取消勾选右侧的Automatically check updates   注册成功: 有效期到2089   </description>
       </item>
       
     

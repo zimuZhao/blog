@@ -6,7 +6,7 @@
     <description>Recent content in 有趣、好用的工具们 on ZM Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
-    <lastBuildDate>Fri, 14 Aug 2020 13:59:24 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2020 10:08:24 +0800</lastBuildDate>
     
         <atom:link href="https://zimuzhao.github.io/blog/tools/index.xml" rel="self" type="application/rss+xml" />
     
@@ -75,13 +75,13 @@ Momentum  Momentum: 替换 chrome 原有首页的插件    左上角：搜索 �
         <guid>https://zimuzhao.github.io/blog/tools/plugin-vscode/</guid>
         <description>VS Code官网
 编辑器从Eclipse-&amp;gt;MyEclipse-&amp;gt;IDEA-&amp;gt;webstorm，觉得自己找到了真爱，打死不换，每每同事安利的时候，都坚定地站队webstorm。直到升级版本后&amp;hellip;webstorm打击盗版真的是太狠了。遂决定大步奔向VS Code的怀抱，简单配置、装了些插件之后，真香～～
+2020-09-01：重新转回webstorm了，主要原因是最近多人协作的一个大项目，频繁git各种操作和查看依赖上下文，暂时没找到替代方案，为了效率换回来了。但是文本编辑和小型静态项目还是推荐vs的～
  快捷键: MAC版   基础配置篇 Chinese(Simplified) Language Pack for Visual Studio Code  Language Pack: 汉化语言包   Darcula Theme 主题插件，在其他编辑器上用习惯了Darcula的配色方案，装上之后一下子亲切不少～
 主题这个是因人而异的啦，大家可以直接在插件那搜索theme,诸多款式任君挑选
  Darcula Theme: 主题配色   Eclipse Keymap 快捷键。习惯了Eclipse的快捷键，所有编辑器用的都是这套。
 插件装到这里已经感觉很畅快了，而且启动速度比webstorm快，赞一个～
  Eclipse Keymap: 快捷键   indent-rainbow 缩进颜色区分，未正常缩进时会变红。舒舒服服看代码～
- indent-rainbow: 缩进标志   Markdown Preview Enhanced  Markdown Preview Enhanced: markdown预览   开发利器 ESLint  ESLint: 代码检查   Vetur 详细介绍移步：https://github.com/vuejs/vetur
- Vetur: vue开发者必备   Prettier  Vetur: 代码格式化   Less intelliSense  Less intelliSense: less变量与混合提示   npm Intellisense 使用require()导入模块代码时，npm Intellisense组件会自发进行包提示。</description>
+ indent-rainbow: 缩进标志   Markdown Preview Enhanced  Markdown Preview Enhanced: markdown预览   开发利器 ESLint  ESLint: 代码检查   Vetur 详细介绍移步：https://github.com/vuejs/vetur</description>
       </item>
       
       <item>
@@ -94,6 +94,21 @@ Momentum  Momentum: 替换 chrome 原有首页的插件    左上角：搜索 �
 微信公众号后台限制，上传的gif图片不能超过300帧。怎么破呢？
 ScreenToGif支持每隔N帧抽取1帧，这样可以让gif图减少帧数的同时，保证流畅性。
  ScreenToGif: M帧gif图系数 = 300/(M-300) &amp;lt;结果取整&amp;gt;   下载地址 (提取码: 5eft)</description>
+      </item>
+      
+      <item>
+        <title>JetBrains系激活</title>
+        <link>https://zimuzhao.github.io/blog/tools/jetbrains-register/</link>
+        <pubDate>Tue, 01 Sep 2020 10:08:24 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/tools/jetbrains-register/</guid>
+        <description> 感谢 https://zhile.io/ 的站长大佬提供的工具
+ JetBrains官网
+可成功激活JetBrains以下版本（支持低于以下版本的激活）：
+ IntelliJ IDEA 2020.2 激活 AppCode 2020.2 激活 CLion 2020.2 激活 DataGrip 2020.2 激活 GoLand 2020.2.1 激活 PhpStorm 2020.2 激活 PyCharm 2020.2 激活 Rider 2020.1.4 激活 RubyMine 2020.2 激活 WebStorm 2020.2 激活  补丁下载 JetBrains破解补丁
+安装参数 LFq51qqupnaiTNn39w6zATiOTxZI2JYuRJEBlzmUDv4zeeNlXhMgJZVb0q5QkLr+CIUrSuNB7ucifrGXawLB4qswPOXYG7+ItDNUR/9UkLTUWlnHLX07hnR1USOrWIjTmbytcIKEdaI6x0RskyotuItj84xxoSBP/iRBW2EHpOc
+激活步骤 以WebStorm为例：
+ 运行IDE，进入可操作界面；   可操作界面: Drop files here to open   将jetbrains-agent.zip拖拽到操作区域空白处，点击 Restart 按钮重新启动； 重启后出现JetbrainsAgent 配置助手窗口，粘贴安装参数，点击为 WebStorm 安装，确认后重启； 禁用更新检查：重启后点击WebStorm -&amp;gt; Preferences打开软件的偏好设置，左上角的搜索框处输入update,取消勾选右侧的Automatically check updates   注册成功: 有效期到2089   </description>
       </item>
       
     

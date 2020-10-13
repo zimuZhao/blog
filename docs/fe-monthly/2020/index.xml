@@ -6,12 +6,36 @@
     <description>Recent content in 2020年度 on ZM Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
-    <lastBuildDate>Tue, 04 Aug 2020 10:08:56 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2020 10:20:56 +0800</lastBuildDate>
     
         <atom:link href="https://zimuzhao.github.io/blog/fe-monthly/2020/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>2020-07</title>
+        <link>https://zimuzhao.github.io/blog/fe-monthly/2020/2020-07/</link>
+        <pubDate>Sun, 05 Jul 2020 10:08:56 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/fe-monthly/2020/2020-07/</guid>
+        <description>资讯 JS现状调查
+职位需求
+如何评论浏览器最新的 WebAssembly 字节码技术?
+优化策略 webpack打包优化
+前端性能优化
+样例笔记 Blender导出JSON格式教程threejs
+基于G6的xmind
+大文件上传&amp;amp;断点续传
+HTML 5 Drag and Drop 入门教程
+优秀的库/Demo midori：图像背景动画
+Super Expressive：构建正则表达式
+currency：处理货币
+Vite：基于 Vue3 单文件组件的非打包开发服务器
+jExcel：在线创建表格的轻量级插件
+x-spreadsheet：在线电子表格
+PDF-LIB：创建和修改PDF文档</description>
+      </item>
       
       <item>
         <title>2020-08</title>
@@ -39,27 +63,18 @@ Electron 10.0.0 Released
       </item>
       
       <item>
-        <title>2020-07</title>
-        <link>https://zimuzhao.github.io/blog/fe-monthly/2020/2020-07/</link>
-        <pubDate>Sun, 05 Jul 2020 10:08:56 +0800</pubDate>
+        <title>2020-09</title>
+        <link>https://zimuzhao.github.io/blog/fe-monthly/2020/2020-09/</link>
+        <pubDate>Thu, 03 Sep 2020 10:20:56 +0800</pubDate>
         
-        <guid>https://zimuzhao.github.io/blog/fe-monthly/2020/2020-07/</guid>
-        <description>资讯 JS现状调查
-职位需求
-如何评论浏览器最新的 WebAssembly 字节码技术?
-优化策略 webpack打包优化
-前端性能优化
-样例笔记 Blender导出JSON格式教程threejs
-基于G6的xmind
-大文件上传&amp;amp;断点续传
-HTML 5 Drag and Drop 入门教程
-优秀的库/Demo midori：图像背景动画
-Super Expressive：构建正则表达式
-currency：处理货币
-Vite：基于 Vue3 单文件组件的非打包开发服务器
-jExcel：在线创建表格的轻量级插件
-x-spreadsheet：在线电子表格
-PDF-LIB：创建和修改PDF文档</description>
+        <guid>https://zimuzhao.github.io/blog/fe-monthly/2020/2020-09/</guid>
+        <description>资讯 深度解析 | Flutter web 支持的最新进展
+Vue 3.0 &amp;lsquo;One Piece&amp;rsquo; released
+Node.js September 2020 Security Releases
+Deno 1.4 Released
+MomentJS is done
+Feature Watch: ECMAScript 2021: Dr. Axel always keeps tabs on the new features coming to future versions of ECMAScript and he’s now started to do the same for the forthcoming ES2021.
+V8 Release 8.6: The latest version of the V8 JavaScript engine is now in beta until its eventual release with Chrome 86</description>
       </item>
       
     

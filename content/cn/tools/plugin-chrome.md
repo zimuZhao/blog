@@ -166,3 +166,10 @@ Redux DevTools 让我们方便地追踪数据流的变化, 看到每一个改变
 前端性能优化测试工具
 
 {{< img src="/images/tools/lighthouse.jpg" title="Lighthouse" caption="性能测试" alt="Lighthouse">}}
+
+### Headless recorder
+
+记录浏览器交互并生成`Puppeteer`或`Playwright`脚本
+
+{{< img src="/images/tools/headless-recorder.jpg" title="Headless recorder" caption="generates a Puppeteer or Playwright script" alt="Headless recorder">}}
+
