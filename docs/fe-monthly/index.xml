@@ -6,7 +6,7 @@
     <description>Recent content in 前端月刊 on ZM Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
-    <lastBuildDate>Thu, 03 Sep 2020 10:20:56 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2020 09:53:53 +0800</lastBuildDate>
     
         <atom:link href="https://zimuzhao.github.io/blog/fe-monthly/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,7 +16,7 @@
       <item>
         <title>2020年度</title>
         <link>https://zimuzhao.github.io/blog/fe-monthly/2020/</link>
-        <pubDate>Thu, 03 Sep 2020 10:20:56 +0800</pubDate>
+        <pubDate>Thu, 12 Nov 2020 09:53:53 +0800</pubDate>
         
         <guid>https://zimuzhao.github.io/blog/fe-monthly/2020/</guid>
         <description></description>
@@ -44,7 +44,8 @@ Text 发光
 伪3D
 视频背景
 Card 简介
-JS 扭蛋机抽奖动画（Matterjs）</description>
+JS 扭蛋机抽奖动画（Matterjs）
+电音吉他 (Web Audio API)</description>
       </item>
       
       <item>
@@ -61,6 +62,15 @@ javascript class CreateUser { constructor(name) { this.name = name; this.getName
 策略模式 将算法的使用算法的实现分离。定义一系列的算法，把他们一个个封装起来，并且使他们可以相互替换。
 一个基于策略模式的程序至少由两部分组成：
  一组策略类（可变），策略类封装了具体的算法，并负责具体的计算过程； 环境类Context（不变），Context接受客户的请求，随后将请求委托给某一个策略类。  javascript var levelOBJ = { &amp;quot;A&amp;quot;: function(money) { return money * 4; }, &amp;quot;B&amp;quot; : function(money) { return money * 3; }, &amp;quot;C&amp;quot; : function(money) { return money * 2; } }; /*环境类*/ var calculateBouns =function(level,money) { return levelOBJ[level](money); }; console.</description>
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://zimuzhao.github.io/blog/fe-monthly/notes/vue/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/fe-monthly/notes/vue/</guid>
+        <description>VUE笔记 VUE笔记</description>
       </item>
       
     

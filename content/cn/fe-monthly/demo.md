@@ -54,3 +54,5 @@ enableToc: false
 ## JS
 
 [扭蛋机抽奖动画（Matterjs）](https://codepen.io/57Finn/pen/RwNJWVM?editors=0010)
+
+[电音吉他 (Web Audio API)](https://codepen.io/gregh/pen/zNzvOm)

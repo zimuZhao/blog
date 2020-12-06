@@ -173,3 +173,9 @@ Redux DevTools 让我们方便地追踪数据流的变化, 看到每一个改变
 
 {{< img src="/images/tools/headless-recorder.jpg" title="Headless recorder" caption="generates a Puppeteer or Playwright script" alt="Headless recorder">}}
 
+### SpanTree
+
+Tree for GitLab，文件目录树形结构展示
+
+{{< img src="/images/tools/span-tree.gif" title="Span Tree" caption="gitLab文件目录树形结构展示" alt="Span Tree">}}
+

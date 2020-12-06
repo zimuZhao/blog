@@ -35,7 +35,8 @@ Text 发光
 伪3D
 视频背景
 Card 简介
-JS 扭蛋机抽奖动画（Matterjs）</description>
+JS 扭蛋机抽奖动画（Matterjs）
+电音吉他 (Web Audio API)</description>
       </item>
       
       <item>
@@ -227,6 +228,21 @@ V8 Release 8.6: The latest version of the V8 JavaScript engine is now in beta un
       </item>
       
       <item>
+        <title>2020-10</title>
+        <link>https://zimuzhao.github.io/blog/fe-monthly/2020/2020-10/</link>
+        <pubDate>Tue, 13 Oct 2020 14:43:53 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/fe-monthly/2020/2020-10/</guid>
+        <description>资讯 webpack 5 Released
+Babel 7.12.0 Released with TypeScript 4.1 Beta Support and More
+React 17.0 Released
+npm 7.0 Released
+Node 14.13.0 has been released: with support for named exports for CommonJS modules.
+Node 15 Released: An upgrade to the V8 8.6 engine (from 8.4) adding various JS features like Promise.any(), logical assignment operators, and String.prototype.replaceAll()
+教程，观点 Detached window memory leaks: Find and fix tricky memory leaks caused by detached windows.</description>
+      </item>
+      
+      <item>
         <title>软件篇-Windows</title>
         <link>https://zimuzhao.github.io/blog/tools/software-windows/</link>
         <pubDate>Sat, 04 Jul 2020 23:14:24 +0800</pubDate>
@@ -236,6 +252,27 @@ V8 Release 8.6: The latest version of the V8 JavaScript engine is now in beta un
 微信公众号后台限制，上传的gif图片不能超过300帧。怎么破呢？
 ScreenToGif支持每隔N帧抽取1帧，这样可以让gif图减少帧数的同时，保证流畅性。
  ScreenToGif: M帧gif图系数 = 300/(M-300) &amp;lt;结果取整&amp;gt;   下载地址 (提取码: 5eft)</description>
+      </item>
+      
+      <item>
+        <title>2020-11</title>
+        <link>https://zimuzhao.github.io/blog/fe-monthly/2020/2020-11/</link>
+        <pubDate>Thu, 12 Nov 2020 09:53:53 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/fe-monthly/2020/2020-11/</guid>
+        <description>资讯 Version 11 of Angular Now Available
+Babylon.js 4.2 Released: Powerful 3D Rendering Engine
+TypeScript 4.1 Released
+Chrome - What&amp;rsquo;s New In DevTools
+教程，观点 WTFJS: A List of Funny and Tricky JavaScript Examples
+10 Insights From Adopting TypeScript At Scale
+Operator Lookup: Enter a JavaScript operator to learn more about it
+Going from JavaScript to WebAssembly in three steps
+聊一聊前端性能优化 CRP
+速度提高几百倍，记一次数据结构在实际工作中的运用
+postMessage 还能这样玩
+🔧 优秀的库/Demo spacetime: 时区库
+Socket.io 3.0 Released: A Realtime Framework for Node and Browser</description>
       </item>
       
       <item>
@@ -251,6 +288,15 @@ ScreenToGif支持每隔N帧抽取1帧，这样可以让gif图减少帧数的同�
 安装参数 LFq51qqupnaiTNn39w6zATiOTxZI2JYuRJEBlzmUDv4zeeNlXhMgJZVb0q5QkLr+CIUrSuNB7ucifrGXawLB4qswPOXYG7+ItDNUR/9UkLTUWlnHLX07hnR1USOrWIjTmbytcIKEdaI6x0RskyotuItj84xxoSBP/iRBW2EHpOc
 激活步骤 以WebStorm为例：
  运行IDE，进入可操作界面；   可操作界面: Drop files here to open   将jetbrains-agent.zip拖拽到操作区域空白处，点击 Restart 按钮重新启动； 重启后出现JetbrainsAgent 配置助手窗口，粘贴安装参数，点击为 WebStorm 安装，确认后重启； 禁用更新检查：重启后点击WebStorm -&amp;gt; Preferences打开软件的偏好设置，左上角的搜索框处输入update,取消勾选右侧的Automatically check updates   注册成功: 有效期到2089   </description>
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://zimuzhao.github.io/blog/fe-monthly/notes/vue/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/fe-monthly/notes/vue/</guid>
+        <description>VUE笔记 VUE笔记</description>
       </item>
       
     

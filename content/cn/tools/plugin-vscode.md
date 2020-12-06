@@ -96,12 +96,31 @@ enableToc: true
 
 {{< img src="/images/tools/vscode-beautify.jpg" title="Live Server" caption="实时预览" alt="Live Server">}}
 
+### Auto Close Tag
+
+自动补全标签。
+
 ### Auto Rename Tag
 
 自动重命名成对的标签。
 
 {{< img src="/images/tools/vscode-css-peek.gif" title="Live Server" caption="实时预览" alt="Live Server">}}
 
+### Code Runner
+
+一键运行代码，支持很多语言。包括C、C++、JAVA、JS、PHP、Python、Perl...
+
+### Comment Translate
+
+插件使用 Google Translate API 翻译注释，功能强大，在看开源项目源代码的时候很有用(英文好的话请忽略)。
+
+### Image preview
+
+图片预览，可以在代码行号左侧槽位(或hover时)预览图片。
+
+### WakaTime
+
+编程时间记录工具，在官网 Dashboard 中以图形化方式展示编程时间，支持邮件订阅。
 
 
 ## Git
