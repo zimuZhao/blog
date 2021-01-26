@@ -14,29 +14,19 @@
     
       
       <item>
-        <title>DEMO</title>
-        <link>https://zimuzhao.github.io/blog/fe-monthly/demo/</link>
-        <pubDate>Sun, 02 Aug 2020 14:08:56 +0800</pubDate>
+        <title>2021-01</title>
+        <link>https://zimuzhao.github.io/blog/fe-monthly/2021/2021-01/</link>
+        <pubDate>Tue, 12 Jan 2021 10:31:18 +0800</pubDate>
         
-        <guid>https://zimuzhao.github.io/blog/fe-monthly/demo/</guid>
-        <description>CSS 交错动画（Loading）
-交错动画（文本展示）
-粒子动画（雪）
-融合效果
-联系我们
-展示效果 毛玻璃
-Button hover-边框
-hover-多重边框
-click-微粒
-按钮点击效果
-Input Todo List
-Text 发光
-霓虹
-伪3D
-视频背景
-Card 简介
-JS 扭蛋机抽奖动画（Matterjs）
-电音吉他 (Web Audio API)</description>
+        <guid>https://zimuzhao.github.io/blog/fe-monthly/2021/2021-01/</guid>
+        <description>*资讯 JS现状调查
+OS Awards - Winners for 2020
+The JavaScript &amp;lsquo;Rising Stars&amp;rsquo; of 2020
+Announcing TypeScript 4.2 Beta
+Snowpack v3.0: Reimagining Web Development with ESM
+教程，观点 使用 Lottie 快速开发动画
+TypeScript  官网: TS在JS的基础上添加了类型支持 入门教程 typescript-book-chinese: 《TypeScript Deep Dive》 的中文翻译版 clean-code-typescript: 将源自 Robert C. Martin 的 Clean Code 的软件工程原则适配到 TypeScript 。这不是一个代码风格指南， 它是一个使用 TypeScript 来生产 可读的， 可重用的， 以及可重构的软件的指南。 TypeScript2小时速成: 简洁版教程，只讲经常使用的知识点  🔧 优秀的库/Demo Twin: Tailwind with css-in-js
+Twind: the smallest, fastest, most feature complete Tailwind-in-JS solution in existence</description>
       </item>
       
       <item>
@@ -120,22 +110,6 @@ xiaoluoboding：友情链接，前端技术月刊
 nameberry
 百词斩出品
 behindthename（查询名字来源、变体、历史、受欢迎程度等）</description>
-      </item>
-      
-      <item>
-        <title>Design pattern</title>
-        <link>https://zimuzhao.github.io/blog/fe-monthly/design-pattern/</link>
-        <pubDate>Sun, 30 Aug 2020 16:46:56 +0800</pubDate>
-        
-        <guid>https://zimuzhao.github.io/blog/fe-monthly/design-pattern/</guid>
-        <description>教程 ES6设计模式专栏
-JavaScript设计原则&amp;amp;&amp;amp;常用设计模式
-单例模式 一个类仅有一个实例对象。
-适用场景：一个单一对象。比如：弹窗，无论点击多少次，弹窗只应该被创建一次。
-javascript class CreateUser { constructor(name) { this.name = name; this.getName(); } getName() { return this.name; } } // 代理实现单例模式 var ProxyMode = (function() { var instance = null; return function(name) { if(!instance) { instance = new CreateUser(name); } return instance; } })(); // 测试单体模式的实例 var a = new ProxyMode(&amp;quot;aaa&amp;quot;); var b = new ProxyMode(&amp;quot;bbb&amp;quot;); // 因为单体模式是只实例化一次，所以下面的实例是相等的 console.log(a === b); //true
-策略模式 将算法的使用算法的实现分离。定义一系列的算法，把他们一个个封装起来，并且使他们可以相互替换。
-一个基于策略模式的程序至少由两部分组成：
- 一组策略类（可变），策略类封装了具体的算法，并负责具体的计算过程； 环境类Context（不变），Context接受客户的请求，随后将请求委托给某一个策略类。  javascript var levelOBJ = { &amp;quot;A&amp;quot;: function(money) { return money * 4; }, &amp;quot;B&amp;quot; : function(money) { return money * 3; }, &amp;quot;C&amp;quot; : function(money) { return money * 2; } }; /*环境类*/ var calculateBouns =function(level,money) { return levelOBJ[level](money); }; console.</description>
       </item>
       
       <item>
@@ -251,7 +225,8 @@ Node 15 Released: An upgrade to the V8 8.6 engine (from 8.4) adding various JS f
         <description>ScreenToGif gif图帧率调整。
 微信公众号后台限制，上传的gif图片不能超过300帧。怎么破呢？
 ScreenToGif支持每隔N帧抽取1帧，这样可以让gif图减少帧数的同时，保证流畅性。
- ScreenToGif: M帧gif图系数 = 300/(M-300) &amp;lt;结果取整&amp;gt;   下载地址 (提取码: 5eft)</description>
+ ScreenToGif: M帧gif图系数 = 300/(M-300) &amp;lt;结果取整&amp;gt;   下载地址 (提取码: 5eft)
+CopyTranslator 复制即翻译的电脑翻译神器</description>
       </item>
       
       <item>
@@ -282,7 +257,9 @@ Socket.io 3.0 Released: A Realtime Framework for Node and Browser</description>
         
         <guid>https://zimuzhao.github.io/blog/tools/jetbrains-register/</guid>
         <description> 感谢 https://zhile.io/ 的站长大佬提供的工具
- JetBrains官网
+ 最新方案 通过安装插件重置试用时间，不再需要下载补丁
+Jetbrains系列产品重置试用方法
+软件下载 JetBrains官网
 可成功激活JetBrains以下版本（支持低于以下版本的激活）：
  IntelliJ IDEA 2020.2 激活 AppCode 2020.2 激活 CLion 2020.2 激活 DataGrip 2020.2 激活 GoLand 2020.2.1 激活 PhpStorm 2020.2 激活 PyCharm 2020.2 激活 Rider 2020.1.4 激活 RubyMine 2020.2 激活 WebStorm 2020.2 激活  补丁下载 JetBrains破解补丁
 安装参数 LFq51qqupnaiTNn39w6zATiOTxZI2JYuRJEBlzmUDv4zeeNlXhMgJZVb0q5QkLr+CIUrSuNB7ucifrGXawLB4qswPOXYG7+ItDNUR/9UkLTUWlnHLX07hnR1USOrWIjTmbytcIKEdaI6x0RskyotuItj84xxoSBP/iRBW2EHpOc
@@ -291,12 +268,84 @@ Socket.io 3.0 Released: A Realtime Framework for Node and Browser</description>
       </item>
       
       <item>
-        <title></title>
-        <link>https://zimuzhao.github.io/blog/fe-monthly/notes/vue/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <title>2020-12</title>
+        <link>https://zimuzhao.github.io/blog/fe-monthly/2020/2020-12/</link>
+        <pubDate>Mon, 28 Dec 2020 17:50:18 +0800</pubDate>
         
-        <guid>https://zimuzhao.github.io/blog/fe-monthly/notes/vue/</guid>
-        <description>VUE笔记 VUE笔记</description>
+        <guid>https://zimuzhao.github.io/blog/fe-monthly/2020/2020-12/</guid>
+        <description>资讯 Deno 1.6 Release Notes
+npm v7.2.0 Release
+Node v14.15.3
+Moiva.io: A JavaScript Library Comparison Tool
+教程，观点 使用 Lottie 快速开发动画
+他们渲染了一百万个网页，来了解网络如何崩溃
+The Import On Interaction Pattern
+🔧 优秀的库/Demo Lottie: 动画库。AE-&amp;gt;JSON-&amp;gt;动画
+vue-lottie
+element-plus: A Vue.js 3.0 UI Library made by Element team
+FFCreator: A fast short video processing library
+jsPDF: JavaScript PDF generation</description>
+      </item>
+      
+      <item>
+        <title>JS工具函数</title>
+        <link>https://zimuzhao.github.io/blog/fe-monthly/others/js-utils/</link>
+        <pubDate>Wed, 13 Jan 2021 10:10:40 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/fe-monthly/others/js-utils/</guid>
+        <description>Class A 检查是否为空 检查 String、Object、Array、Map、Set 是否为空。
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  function isEmpty(x) { if(Array.isArray(x) || typeof x === &amp;#39;string&amp;#39; || x instanceof String ) { return x.length === 0; } if(x instanceof Map || x instanceof Set) { return x.size === 0; } if(({}).toString.call(x) === &amp;#39;[object Object]&amp;#39;) { return Object.keys(x).length === 0; } return false; }   类型检查 基于typeof来做判断。需要注意的是，对于数组和对象来说，它们都会被视为“对象”</description>
+      </item>
+      
+      <item>
+        <title>Design pattern</title>
+        <link>https://zimuzhao.github.io/blog/fe-monthly/others/design-pattern/</link>
+        <pubDate>Sun, 30 Aug 2020 16:46:56 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/fe-monthly/others/design-pattern/</guid>
+        <description>教程 ES6设计模式专栏
+JavaScript设计原则&amp;amp;&amp;amp;常用设计模式
+单例模式 一个类仅有一个实例对象。
+适用场景：一个单一对象。比如：弹窗，无论点击多少次，弹窗只应该被创建一次。
+javascript class CreateUser { constructor(name) { this.name = name; this.getName(); } getName() { return this.name; } } // 代理实现单例模式 var ProxyMode = (function() { var instance = null; return function(name) { if(!instance) { instance = new CreateUser(name); } return instance; } })(); // 测试单体模式的实例 var a = new ProxyMode(&amp;quot;aaa&amp;quot;); var b = new ProxyMode(&amp;quot;bbb&amp;quot;); // 因为单体模式是只实例化一次，所以下面的实例是相等的 console.log(a === b); //true
+策略模式 将算法的使用算法的实现分离。定义一系列的算法，把他们一个个封装起来，并且使他们可以相互替换。
+一个基于策略模式的程序至少由两部分组成：
+ 一组策略类（可变），策略类封装了具体的算法，并负责具体的计算过程； 环境类Context（不变），Context接受客户的请求，随后将请求委托给某一个策略类。  javascript var levelOBJ = { &amp;quot;A&amp;quot;: function(money) { return money * 4; }, &amp;quot;B&amp;quot; : function(money) { return money * 3; }, &amp;quot;C&amp;quot; : function(money) { return money * 2; } }; /*环境类*/ var calculateBouns =function(level,money) { return levelOBJ[level](money); }; console.</description>
+      </item>
+      
+      <item>
+        <title>DEMO</title>
+        <link>https://zimuzhao.github.io/blog/fe-monthly/others/demo/</link>
+        <pubDate>Sun, 02 Aug 2020 14:08:56 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/fe-monthly/others/demo/</guid>
+        <description>CSS 交错动画（Loading）
+交错动画（文本展示）
+粒子动画（雪）
+融合效果
+联系我们
+展示效果 毛玻璃
+Button hover-边框
+hover-多重边框
+click-微粒
+按钮点击效果
+Input Todo List
+Text 发光
+霓虹
+伪3D
+视频背景
+Card 简介
+JS 扭蛋机抽奖动画（Matterjs）
+电音吉他 (Web Audio API)</description>
+      </item>
+      
+      <item>
+        <title>笔记</title>
+        <link>https://zimuzhao.github.io/blog/fe-monthly/others/note/</link>
+        <pubDate>Sun, 02 Aug 2020 14:08:56 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/fe-monthly/others/note/</guid>
+        <description>JS 使用 ^ 切换变量 0 或 1 1 2 3 4 5 6 7 8 9 10 11 12  // --- before --- // if 判断 if (toggle) { toggle = 0; } else { toggle = 1; } // 三目运算符 togle = toggle ? 0 : 1; // --- after --- toggle ^= 1;   void 0 比写 undefined 快 1 2  let d = void 0; console.</description>
       </item>
       
     

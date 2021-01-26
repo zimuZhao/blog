@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2021年度 on ZM Blog</title>
+    <link>https://zimuzhao.github.io/blog/fe-monthly/2021/</link>
+    <description>Recent content in 2021年度 on ZM Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn</language>
+    <lastBuildDate>Fri, 01 Jan 2021 10:08:56 +0800</lastBuildDate>
+    
+        <atom:link href="https://zimuzhao.github.io/blog/fe-monthly/2021/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>2021-01</title>
+        <link>https://zimuzhao.github.io/blog/fe-monthly/2021/2021-01/</link>
+        <pubDate>Tue, 12 Jan 2021 10:31:18 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/fe-monthly/2021/2021-01/</guid>
+        <description>*资讯 JS现状调查
+OS Awards - Winners for 2020
+The JavaScript &amp;lsquo;Rising Stars&amp;rsquo; of 2020
+Announcing TypeScript 4.2 Beta
+Snowpack v3.0: Reimagining Web Development with ESM
+教程，观点 使用 Lottie 快速开发动画
+TypeScript  官网: TS在JS的基础上添加了类型支持 入门教程 typescript-book-chinese: 《TypeScript Deep Dive》 的中文翻译版 clean-code-typescript: 将源自 Robert C. Martin 的 Clean Code 的软件工程原则适配到 TypeScript 。这不是一个代码风格指南， 它是一个使用 TypeScript 来生产 可读的， 可重用的， 以及可重构的软件的指南。 TypeScript2小时速成: 简洁版教程，只讲经常使用的知识点  🔧 优秀的库/Demo Twin: Tailwind with css-in-js
+Twind: the smallest, fastest, most feature complete Tailwind-in-JS solution in existence</description>
+      </item>
+      
+    
+  </channel>
+</rss>

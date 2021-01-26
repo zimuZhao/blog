@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>其他 on ZM Blog</title>
+    <link>https://zimuzhao.github.io/blog/fe-monthly/others/</link>
+    <description>Recent content in 其他 on ZM Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn</language>
+    <lastBuildDate>Fri, 01 Jan 2021 10:08:56 +0800</lastBuildDate>
+    
+        <atom:link href="https://zimuzhao.github.io/blog/fe-monthly/others/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>JS工具函数</title>
+        <link>https://zimuzhao.github.io/blog/fe-monthly/others/js-utils/</link>
+        <pubDate>Wed, 13 Jan 2021 10:10:40 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/fe-monthly/others/js-utils/</guid>
+        <description>Class A 检查是否为空 检查 String、Object、Array、Map、Set 是否为空。
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  function isEmpty(x) { if(Array.isArray(x) || typeof x === &amp;#39;string&amp;#39; || x instanceof String ) { return x.length === 0; } if(x instanceof Map || x instanceof Set) { return x.size === 0; } if(({}).toString.call(x) === &amp;#39;[object Object]&amp;#39;) { return Object.keys(x).length === 0; } return false; }   类型检查 基于typeof来做判断。需要注意的是，对于数组和对象来说，它们都会被视为“对象”</description>
+      </item>
+      
+      <item>
+        <title>Design pattern</title>
+        <link>https://zimuzhao.github.io/blog/fe-monthly/others/design-pattern/</link>
+        <pubDate>Sun, 30 Aug 2020 16:46:56 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/fe-monthly/others/design-pattern/</guid>
+        <description>教程 ES6设计模式专栏
+JavaScript设计原则&amp;amp;&amp;amp;常用设计模式
+单例模式 一个类仅有一个实例对象。
+适用场景：一个单一对象。比如：弹窗，无论点击多少次，弹窗只应该被创建一次。
+javascript class CreateUser { constructor(name) { this.name = name; this.getName(); } getName() { return this.name; } } // 代理实现单例模式 var ProxyMode = (function() { var instance = null; return function(name) { if(!instance) { instance = new CreateUser(name); } return instance; } })(); // 测试单体模式的实例 var a = new ProxyMode(&amp;quot;aaa&amp;quot;); var b = new ProxyMode(&amp;quot;bbb&amp;quot;); // 因为单体模式是只实例化一次，所以下面的实例是相等的 console.log(a === b); //true
+策略模式 将算法的使用算法的实现分离。定义一系列的算法，把他们一个个封装起来，并且使他们可以相互替换。
+一个基于策略模式的程序至少由两部分组成：
+ 一组策略类（可变），策略类封装了具体的算法，并负责具体的计算过程； 环境类Context（不变），Context接受客户的请求，随后将请求委托给某一个策略类。  javascript var levelOBJ = { &amp;quot;A&amp;quot;: function(money) { return money * 4; }, &amp;quot;B&amp;quot; : function(money) { return money * 3; }, &amp;quot;C&amp;quot; : function(money) { return money * 2; } }; /*环境类*/ var calculateBouns =function(level,money) { return levelOBJ[level](money); }; console.</description>
+      </item>
+      
+      <item>
+        <title>DEMO</title>
+        <link>https://zimuzhao.github.io/blog/fe-monthly/others/demo/</link>
+        <pubDate>Sun, 02 Aug 2020 14:08:56 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/fe-monthly/others/demo/</guid>
+        <description>CSS 交错动画（Loading）
+交错动画（文本展示）
+粒子动画（雪）
+融合效果
+联系我们
+展示效果 毛玻璃
+Button hover-边框
+hover-多重边框
+click-微粒
+按钮点击效果
+Input Todo List
+Text 发光
+霓虹
+伪3D
+视频背景
+Card 简介
+JS 扭蛋机抽奖动画（Matterjs）
+电音吉他 (Web Audio API)</description>
+      </item>
+      
+      <item>
+        <title>笔记</title>
+        <link>https://zimuzhao.github.io/blog/fe-monthly/others/note/</link>
+        <pubDate>Sun, 02 Aug 2020 14:08:56 +0800</pubDate>
+        
+        <guid>https://zimuzhao.github.io/blog/fe-monthly/others/note/</guid>
+        <description>JS 使用 ^ 切换变量 0 或 1 1 2 3 4 5 6 7 8 9 10 11 12  // --- before --- // if 判断 if (toggle) { toggle = 0; } else { toggle = 1; } // 三目运算符 togle = toggle ? 0 : 1; // --- after --- toggle ^= 1;   void 0 比写 undefined 快 1 2  let d = void 0; console.</description>
+      </item>
+      
+    
+  </channel>
+</rss>

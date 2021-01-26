@@ -93,7 +93,8 @@ Momentum  Momentum: 替换 chrome 原有首页的插件    左上角：搜索 �
         <description>ScreenToGif gif图帧率调整。
 微信公众号后台限制，上传的gif图片不能超过300帧。怎么破呢？
 ScreenToGif支持每隔N帧抽取1帧，这样可以让gif图减少帧数的同时，保证流畅性。
- ScreenToGif: M帧gif图系数 = 300/(M-300) &amp;lt;结果取整&amp;gt;   下载地址 (提取码: 5eft)</description>
+ ScreenToGif: M帧gif图系数 = 300/(M-300) &amp;lt;结果取整&amp;gt;   下载地址 (提取码: 5eft)
+CopyTranslator 复制即翻译的电脑翻译神器</description>
       </item>
       
       <item>
@@ -103,7 +104,9 @@ ScreenToGif支持每隔N帧抽取1帧，这样可以让gif图减少帧数的同�
         
         <guid>https://zimuzhao.github.io/blog/tools/jetbrains-register/</guid>
         <description> 感谢 https://zhile.io/ 的站长大佬提供的工具
- JetBrains官网
+ 最新方案 通过安装插件重置试用时间，不再需要下载补丁
+Jetbrains系列产品重置试用方法
+软件下载 JetBrains官网
 可成功激活JetBrains以下版本（支持低于以下版本的激活）：
  IntelliJ IDEA 2020.2 激活 AppCode 2020.2 激活 CLion 2020.2 激活 DataGrip 2020.2 激活 GoLand 2020.2.1 激活 PhpStorm 2020.2 激活 PyCharm 2020.2 激活 Rider 2020.1.4 激活 RubyMine 2020.2 激活 WebStorm 2020.2 激活  补丁下载 JetBrains破解补丁
 安装参数 LFq51qqupnaiTNn39w6zATiOTxZI2JYuRJEBlzmUDv4zeeNlXhMgJZVb0q5QkLr+CIUrSuNB7ucifrGXawLB4qswPOXYG7+ItDNUR/9UkLTUWlnHLX07hnR1USOrWIjTmbytcIKEdaI6x0RskyotuItj84xxoSBP/iRBW2EHpOc
