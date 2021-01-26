@@ -2,7 +2,6 @@
 title: "Design pattern"
 date: 2020-08-30T16:46:56+08:00
 draft: false
-weight: 2
 enableToc: true
 ---
 

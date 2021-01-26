@@ -9,6 +9,15 @@ enableToc: false
 > 感谢 https://zhile.io/ 的站长大佬提供的工具
 
 
+## 最新方案
+
+通过安装插件重置试用时间，不再需要下载补丁
+
+[Jetbrains系列产品重置试用方法](https://zhile.io/2020/11/18/jetbrains-eval-reset.html)
+
+
+## 软件下载
+
 [JetBrains官网](https://www.jetbrains.com)
 
 可成功激活JetBrains以下版本（支持低于以下版本的激活）：

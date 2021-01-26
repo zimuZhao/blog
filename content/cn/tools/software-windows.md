@@ -18,3 +18,7 @@ gif图帧率调整。
 
 [下载地址](https://pan.baidu.com/s/1yWJ0b9SdFTzOMlfK5sulmg) (提取码: 5eft)
 
+
+## CopyTranslator
+
+复制即翻译的电脑翻译神器
